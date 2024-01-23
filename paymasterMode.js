@@ -2,8 +2,7 @@
 const { default: axios } = require("axios");
 
 const run = async (userOp, mode) => {
-  const url =
-    "https://paymaster.biconomy.io/api/v1/137/MGLF2k_X7.b9311c33-b64a-4c76-b918-87dc1c23d372";
+  const url =process.env.PAY_MASTER_URL
 
   if (mode === "SPONSORED") {
     console.log(`mode SPONSORED`);
