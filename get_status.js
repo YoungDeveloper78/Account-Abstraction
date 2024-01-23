@@ -3,7 +3,7 @@ const { default: axios } = require("axios")
 
 const run=async (hash)=>{
     
-const url="proccess.env.BUNDLER_URL
+const url=proccess.env.BUNDLER_URL
 
 const data={
   "method": "eth_getUserOperationByHash",
