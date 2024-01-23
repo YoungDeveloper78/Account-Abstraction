@@ -174,7 +174,7 @@ async function createSmartTransaction(
 
 
 const run=async ()=>{
-const privateKey="process.env.PROVIDER"
+const privateKey=process.env.PROVIDER
 const wallet=new ethers.Wallet(privateKey,provider)
 /*
  *
