@@ -3,7 +3,7 @@ const { default: axios } = require("axios")
 
 const run=async (hash)=>{
     
-const url="https://bundler.biconomy.io/api/v2/137/nJPK7B3ru.dd7f7861-190d-41bd-af80-6877f74b8f44"
+const url="proccess.env.BUNDLER_URL
 
 const data={
   "method": "eth_getUserOperationByHash",
